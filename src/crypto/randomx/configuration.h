@@ -34,6 +34,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // Increase it if some configs use larger superscalar latency
 #define RANDOMX_SUPERSCALAR_MAX_LATENCY 256
 
+#define RANDOMX_ARGON_SALT         "RandomQ\x06"
+
 // Increase it if some configs use larger cache
 #define RANDOMX_CACHE_MAX_SIZE  268435456
 
